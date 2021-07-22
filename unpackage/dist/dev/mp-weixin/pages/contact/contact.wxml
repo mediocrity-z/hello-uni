@@ -1,0 +1,1 @@
+<view><view><view class="_h1">这是我们</view></view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="id" wx:key="id"><view class="box">{{item.name}}</view></block><view><button type="default" data-event-opts="{{[['tap',[['refresh',['$event']]]]]}}" bindtap="__e">下拉刷新</button></view></view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/navigator/navigator",
+    "pages/message/message",
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "虎牙搜欧力",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#7CCD7C",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#4CD964",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#C0C0C0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message-active.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "./static/tabs/contact.png",
+        "selectedIconPath": "./static/tabs/contact-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

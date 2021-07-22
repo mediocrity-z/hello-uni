@@ -1,0 +1,1 @@
+<view><view>hello</view><navigator url="/pages/detail/detail?id=80" open-type="navigate">跳转至详情页</navigator><navigator url="/pages/message/message" open-type="switchTab">跳转至信息页</navigator></view>

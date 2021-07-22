@@ -1,0 +1,78 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index"			
+		},
+		{
+			"path":"pages/navigator/navigator"
+		}
+		
+		,{
+			"path": "pages/message/message",
+			"style":{
+				"navigationBarTitleText":"信息页",
+				"navigationBarBackgroundColor":"#007AFF",
+				"h5":{
+					"pullToRefresh":{
+						"color":"#7D26CD"
+					}
+					
+				}
+			}
+		}
+		,
+		
+		{
+			"path":"pages/contact/contact"
+		},
+		{
+			"path":"pages/detail/detail",
+			"style":{
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":100
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "虎牙搜欧力",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#7CCD7C",
+		"enablePullDownRefresh":true,
+		"backgroundTextStyle":"light"
+	},
+	"tabBar":{
+		"color":"#4CD964",
+		"selectedColor":"#007AFF",
+		"backgroundColor":"#C0C0C0",
+		"borderStyle":"white",
+		"list":[{
+			"text":"首页",
+			"pagePath":"pages/index/index",
+			"iconPath":"static/tabs/home.png",
+			"selectedIconPath":"static/tabs/home-active.png"
+		},
+		{
+			"text":"信息",
+			"pagePath":"pages/message/message",
+			"iconPath":"static/tabs/message.png",
+			"selectedIconPath":"static/tabs/message-active.png"
+		},
+		{
+			"text":"我们",
+			"pagePath":"pages/contact/contact",
+			"iconPath":"./static/tabs/contact.png",
+			"selectedIconPath":"./static/tabs/contact-active.png"
+		}
+		
+		]
+	},
+	"condition":{
+		"current":0,
+		"list":[{
+			"name":"详情页",
+			"path":"pages/detail/detail",
+			"query":"id=80"
+		}]
+	}
+}

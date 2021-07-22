@@ -1,0 +1,4 @@
+.box {
+  line-height: 100px;
+}
+
